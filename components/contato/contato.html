@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="content-fluid">
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <!--header contatos-->
+                <div class="text-center mb-5">
+                    <p class="m-0">Contato</p>
+                    <h1 class="mb-3 ">Entre em Contato</h1>
+                    <p>Fale conosco, solicite um orçamento ou retire duvidas!</p>
+                </div>
+                <!--Formulario-->
+                <form class="row justify-content-center g-4 bg-warning p-5 rounded" action="">
+                    <div class="col-md-4 form-floating">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" required  id="nome">
+                            <label for="nome">Nome</label>
+                        </div>
+                       </div>
+                    <div class="col-md-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-floating">
+                            <input type="tel" class="form-control" id="Telefone" >
+                            <label for="Telefone">Telefone</label>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <select class="form-select" name="assunto" id="assunto">
+                            <option selected> Selecione um assunto</option>
+                            <option value="orcamento">Orçamento</option>
+                            <option value="duvidas">Duvidas</option>
+                            <option value="sugestoes">Sugestões</option>
+                            <option value="convites">Convites</option>
+                            <option value="Manutencao">Manutenção</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="comentario" style="height: 100px"></textarea>
+                            <label for="comentario">Mensagem</label>
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <input class="form-check-input" type="checkbox" value="aceitotermos" checked id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Aceito os termos de serviço
+                        </label>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-outline-dark" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <form action="">
+
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+</body>
+</html>

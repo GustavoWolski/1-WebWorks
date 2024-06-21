@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preços</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<style>
+    .hover-effect {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .hover-effect:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<body>
+<div class="container-fluid mt-5">
+   <div class="row mt-4 justify-content-center">
+        <div class="col-8 text-center px-5 pb-4">
+            <h1 class="text-center">Conheça nossos Pacotes</h1>
+            <p class=" d-none d-mb-block px-5 fs-6"> Nossos pacotes são projetados para valorizar seu tempo, oferecendo uma experiência sem estresse e produtos de valor inigualável, ideais para seu desenvolvimento pessoal ou para o crescimento do seu negócio.</p>        
+        </div>
+        <!-- Force next columns to break to new line -->
+        <div class="w-100"></div>
+        <div class="col-3 text-center mb-3">
+            <input type="radio" class="btn-check" name="options" id="mensal" autocomplete="off">
+            <label class="btn btn-outline-dark px-4" for="mensal">Mensal</label>
+
+            <input type="radio" class="btn-check"  name="options" id="anual" autocomplete="off" checked>
+            <label class="btn btn-outline-dark position-relative px-4" for="anual">Anual <span class="position-absolute top-0 start-100 translate-middle badge text-bg-danger">- 15%</span></label>
+        </div>
+        <div class="col-10 mb-3">
+            <div class="row text-center g-2 justify-content-center text-light ">
+                <div class="col-12 text-center text-dark fs-4 mb-4">
+                    Selecione o Produto Desejado
+                </div>
+                <div class="col-4 col-md-2 p-3 bg-dark text-light rounded border shadow-sm hover-effect">
+                    Web-site Empresarial
+                </div>
+                <div class="col-4 col-md-2 p-3 bg-dark rounded border shadow-sm hover-effect">
+                    Web-site Pessoal
+                </div>
+                <div class="col-4 col-md-2 p-3 bg-dark rounded border shadow-sm hover-effect">
+                    Portfólios
+                </div>
+                <div class="col-4 col-md-2 p-3 bg-dark rounded border shadow-sm hover-effect">
+                    Blogs
+                </div>
+                <div class="col-4 col-md-2 p-3 bg-dark rounded border shadow-sm hover-effect">
+                    Dashboards
+                </div>
+                <div class="col-4 col-md-2 p-3 bg-dark rounded border shadow-sm hover-effect">
+                    E-commerce
+                </div>
+            </div>
+        </div>
+        <div class="col-10 card-group">
+            <!--Card 1-->
+            <div class="card rounded-4 border ">
+              <img src="./img/pacote_bronze.jpg" class="card-img-top rounded-top-4" >
+              <div class="card-body">
+                <h3 class="card-title display-6">Bronze</h3>
+                <p class="card-text">Ideal para iniciantes que querem experimentar dos beneficios de um website próprio</p>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class=" col-12 col-md-6">
+                            <p class="fs-3">R$ 1.599,99</p>
+                            <small>Receba seu web-site e todo o projeto!</small>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p class="fs-3">R$ 89,99*</p>
+                            <small>Custo mensal de hospedagem</small>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <a href="#" class="btn btn-dark mb-3">Quero ser bronze</a>
+              <div class="card-header">
+                Serviços
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"> <i class="fa fa-check-circle"></i> Registro do dominio </li>
+                <li class="list-group-item"> <i class="fa fa-times-circle"></i> Até 3 páginas </li>
+                <li class="list-group-item"> <i class="fa fa-circle"></i> Confecção de logotipo</li>
+                <li class="list-group-item"> <i class="fa fa-circle"></i> Responsivo</li>
+
+              </ul>
+              <div class="card-header">
+                Adicionais
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"> <i class="fa fa-circle"></i> Registro do dominio </li>
+                <li class="list-group-item"> <i class="fa fa-circle"></i> Até 3 páginas </li>
+                <li class="list-group-item"> <i class="fa fa-circle"></i> Confecção de logotipo</li>
+              </ul>
+              <div class="card-header">
+                Bônus
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"> <i class="fa fa-circle"></i> Registro do dominio </li>
+                <li class="list-group-item"> <i class="fa fa-circle"></i> Até 3 páginas </li>
+                <li class="list-group-item"> <i class="fa fa-circle"></i> Confecção de logotipo</li>
+              </ul>
+              <div class="card-footer">
+                <small class="text-muted">*A hospedagem não é obrigatória, entregamos seu projeto ao final</small>
+              </div>
+            </div>
+            <!--Card 2-->
+            <div class="card rounded-4">
+                <img src="./img/pacote_prata.jpg" class="card-img-top rounded-top-4" >
+                <div class="card-body">
+                  <h3 class="card-title display-6">Prata</h3>
+                  <p class="card-text">Ideal para iniciantes que querem experimentar dos beneficios de um website próprio</p>
+                  <div class="container-fluid">
+                      <div class="row">
+                          <div class=" col-12 col-md-6">
+                              <p class="fs-3">R$ 1.599,99</p>
+                              <small>Receba seu web-site e todo o projeto!</small>
+                          </div>
+                          <div class="col-12 col-md-6">
+                              <p class="fs-3">R$ 89,99*</p>
+                              <small>Custo mensal de hospedagem</small>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-secondary mb-3">Quero ser prata</a>
+                <div class="card-header">
+                  Serviços
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"> <i class="fa fa-check-circle"></i> Registro do dominio </li>
+                  <li class="list-group-item"> <i class="fa fa-x"></i> Até 3 páginas </li>
+                  <li class="list-group-item"> <i class="fa fa-circle"></i> Confecção de logotipo</li>
+                  <li class="list-group-item"> <i class="fa fa-circle"></i> Responsivo</li>
+  
+                </ul>
+                <div class="card-header">
+                  Adicionais
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"> <i class="fa fa-circle"></i> Registro do dominio </li>
+                  <li class="list-group-item"> <i class="fa fa-circle"></i> Até 3 páginas </li>
+                  <li class="list-group-item"> <i class="fa fa-circle"></i> Confecção de logotipo</li>
+                </ul>
+                <div class="card-header">
+                  Bônus
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"> <i class="fa fa-circle"></i> Registro do dominio </li>
+                  <li class="list-group-item"> <i class="fa fa-circle"></i> Até 3 páginas </li>
+                  <li class="list-group-item"> <i class="fa fa-circle"></i> Confecção de logotipo</li>
+                </ul>
+                <div class="card-footer">
+                  <small class="text-muted">*A hospedagem não é obrigatória, entregamos seu projeto ao final</small>
+                </div>
+              </div>
+              <!--Card 3-->
+            <div class="card rounded-4">
+                <img src="./img/pacote_ouro.jpg" class="card-img-top rounded-top-4" >
+                <div class="card-body">
+                  <h3 class="card-title display-6">Ouro</h3>
+                  <p class="card-text">Ideal para iniciantes que querem experimentar dos beneficios de um website próprio</p>
+                  <div class="container-fluid">
+                      <div class="row">
+                          <div class=" col-12 col-md-6">
+                              <p class="fs-3">R$ 1.599,99</p>
+                              <small>Receba seu web-site e todo o projeto!</small>
+                          </div>
+                          <div class="col-12 col-md-6">
+                              <p class="fs-3">R$ 89,99*</p>
+                              <small>Custo mensal de hospedagem</small>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-warning mb-3">Quero ser Ouro</a>
+                <div class="card-header">
+                  Serviços
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"> <i class="fa fa-check-circle"></i> Registro do dominio </li>
+                  <li class="list-group-item"> <i class="fa fa-x"></i> Até 3 páginas </li>
+                  <li class="list-group-item"> <i class="fa fa-circle"></i> Confecção de logotipo</li>
+                  <li class="list-group-item"> <i class="fa fa-circle"></i> Responsivo</li>
+  
+                </ul>
+                <div class="card-header">
+                  Adicionais
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"> <i class="fa fa-circle"></i> Registro do dominio </li>
+                  <li class="list-group-item"> <i class="fa fa-circle"></i> Até 3 páginas </li>
+                  <li class="list-group-item"> <i class="fa fa-circle"></i> Confecção de logotipo</li>
+                </ul>
+                <div class="card-header">
+                  Bônus
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"> <i class="fa fa-circle"></i> Registro do dominio </li>
+                  <li class="list-group-item"> <i class="fa fa-circle"></i> Até 3 páginas </li>
+                  <li class="list-group-item"> <i class="fa fa-circle"></i> Confecção de logotipo</li>
+                </ul>
+                <div class="card-footer">
+                  <small class="text-muted">*A hospedagem não é obrigatória, entregamos seu projeto ao final</small>
+                </div>
+              </div>
+        </div>
+<!-- Calculadora de preços-->
+        <div class="row mt-4 p-3 justify-content-center bg-dark text-light">
+            <div class="col-8 bg-secondary rounded-4 mb-3">
+                <h1 class="text-center">Calculadora de Preços</h1>
+                <div class="text-center ">
+                    <p>Não achou o que queria? Calcule aqui um serviço personalizado para você:</p>
+                </div>
+            </div>
+            <div class="col-md-8 border rounded-4 p-5">
+                <form id="priceCalculatorForm">
+                    <div class="row mb-4 align-items-center">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="serviceType" class="fw-bold mb-3">Tipo de Serviço:</label>
+                                <select class="form-control" id="serviceType" required>
+                                    <option value="" disabled selected>Selecione o tipo de serviço</option>
+                                    <option value="website_pessoal">Website Pessoal</option>
+                                    <option value="website_empresarial">Website Empresarial</option>
+                                    <option value="portfolio">Portfólio</option>
+                                    <option value="blog">Blog</option>
+                                    <option value="dashboard">Dashboard</option>
+                                    <option value="ecommerce">E-commerce</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-4">
+                            <div class="form-group">
+                                <label for="numPages" class="fw-bold  mb-3" >Número de Páginas:</label>
+                                <input type="number" class="form-control" id="numPages" placeholder="Digite o número de páginas" min="1" max="30">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-2">
+                            <div class="form-check form-switch py-3">
+                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Hosting <i class="fa fa-?"></i> </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="fw-bold" >Itens Adicionais:</label>
+                        <div class="row mt-3">
+                            <div class="col-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="paymentIntegration" value="paymentIntegration">
+                                    <label class="form-check-label" for="paymentIntegration">Integração de Pagamentos</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="animations" value="animations">
+                                    <label class="form-check-label" for="animations">Animações</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="transitions" value="transitions">
+                                    <label class="form-check-label" for="transitions">Transições</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="emailBox" value="emailBox">
+                                    <label class="form-check-label" for="emailBox">Caixa de E-mail</label>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="domainRegistration" value="domainRegistration">
+                                    <label class="form-check-label" for="domainRegistration">Registro de Domínio</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="messageSending" value="messageSending">
+                                    <label class="form-check-label" for="messageSending">Envio de Mensagens</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="toolbox" value="toolbox">
+                                    <label class="form-check-label" for="toolbox">Caixa de Ferramentas (Cores e Fontes)</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="toolbox" value="toolbox">
+                                    <label class="form-check-label" for="toolbox">Integração Whatsapp</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Calcular</button>
+                </form>
+            <div class="row">
+                <div class="col-6">
+                    <div class="mt-4" id="suggestions"></div>
+                </div>
+                <div class="col-6">
+                    <div class="mt-4" id="result"></div>
+                </div>
+            </div>
+        </div>
+     </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="./price.js"></script>
+</body>
+</html>
+
+</html>
